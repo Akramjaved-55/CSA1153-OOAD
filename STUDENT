@@ -1,0 +1,96 @@
+
+
+/**
+ * Class STUDENT
+ */
+public class STUDENT {
+
+  //
+  // Fields
+  //
+
+  private void stu_id;
+  private void stu_password;
+  private void stu_details;
+  
+  //
+  // Constructors
+  //
+  public STUDENT () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of stu_id
+   * @param newVar the new value of stu_id
+   */
+  private void setStu_id (void newVar) {
+    stu_id = newVar;
+  }
+
+  /**
+   * Get the value of stu_id
+   * @return the value of stu_id
+   */
+  private void getStu_id () {
+    return stu_id;
+  }
+
+  /**
+   * Set the value of stu_password
+   * @param newVar the new value of stu_password
+   */
+  private void setStu_password (void newVar) {
+    stu_password = newVar;
+  }
+
+  /**
+   * Get the value of stu_password
+   * @return the value of stu_password
+   */
+  private void getStu_password () {
+    return stu_password;
+  }
+
+  /**
+   * Set the value of stu_details
+   * @param newVar the new value of stu_details
+   */
+  private void setStu_details (void newVar) {
+    stu_details = newVar;
+  }
+
+  /**
+   * Get the value of stu_details
+   * @return the value of stu_details
+   */
+  private void getStu_details () {
+    return stu_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void analyze()
+  {
+  }
+
+
+  /**
+   */
+  public void verify()
+  {
+  }
+
+
+}
