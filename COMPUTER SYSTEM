@@ -1,0 +1,79 @@
+
+
+/**
+ * Class COMPUTER_SYSTEM
+ */
+public class COMPUTER_SYSTEM {
+
+  //
+  // Fields
+  //
+
+  private void analyse_details;
+  private void manage_the_data;
+  
+  //
+  // Constructors
+  //
+  public COMPUTER_SYSTEM () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of analyse_details
+   * @param newVar the new value of analyse_details
+   */
+  private void setAnalyse_details (void newVar) {
+    analyse_details = newVar;
+  }
+
+  /**
+   * Get the value of analyse_details
+   * @return the value of analyse_details
+   */
+  private void getAnalyse_details () {
+    return analyse_details;
+  }
+
+  /**
+   * Set the value of manage_the_data
+   * @param newVar the new value of manage_the_data
+   */
+  private void setManage_the_data (void newVar) {
+    manage_the_data = newVar;
+  }
+
+  /**
+   * Get the value of manage_the_data
+   * @return the value of manage_the_data
+   */
+  private void getManage_the_data () {
+    return manage_the_data;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void fetch()
+  {
+  }
+
+
+  /**
+   */
+  public void stores()
+  {
+  }
+
+
+}
